@@ -1,0 +1,27 @@
+.hero-block{
+    height: 580px;
+    background-image: url('../img/top_background.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+
+    padding-left: 184px;
+    padding-top: 58px;
+}
+
+.hero-block__title{
+    margin-bottom: 30px;
+}
+
+.hero-block__description{
+    margin-bottom: 60px;
+}
+
+.hero-block__form{
+    width: 498px;
+
+    margin-bottom: 110px;
+}
+
+.hero-bloc-form__input{
+    margin-left: 13px;
+}

@@ -8,6 +8,7 @@
     <!--STYLES-->
     <link type="text/css" rel="stylesheet" href="style/main.css"/>
     <link type="text/css" rel="stylesheet" href="style/header.css"/>
+    <link type="text/css" rel="stylesheet" href="style/hero.css"/>
     <link type="text/css" rel="stylesheet" href="style/popular.css"/>
     <link type="text/css" rel="stylesheet" href="style/brand.css"/>
     <link type="text/css" rel="stylesheet" href="style/newcomer.css"/>
@@ -56,18 +57,20 @@
     </header>
 
     <!--HERO-->
-    <div class="top-block">
+    <div class="hero-block">
 
-        <h1>Awesome tools for <br>
+        <h1 class="hero-block__title">Awesome tools for <br>
             Designer & Developer.</h1>
 
-        <h4>Antool is a web collection of information on paid or <br>
+        <h4 class="hero-block__description">Antool is a web collection of information on paid or <br>
             free Design and Development tools</h4>
 
-        <div class="form">
-            <img src="img/buttons/search.svg"/>
-            <input type="text" placeholder="find more than 430+ tools...">
-            <div class="orange-button">Search</div>
+        <div class="hero-block__form hero-bloc-form form">
+            <img src="img/buttons/search.svg" alt="search"/>
+            <label>
+                <input type="text" placeholder="find more than 430+ tools..." class="hero-bloc-form__input">
+            </label>
+            <div class="orange-button form__button">Search</div>
         </div>
 
         <div class="socials">
@@ -267,7 +270,7 @@
 
         <div class="form">
             <input type="text" placeholder="Enter your email..."/>
-            <div class="orange-button">Join Us</div>
+            <div class="orange-button form__button">Join Us</div>
         </div>
     </div>
 

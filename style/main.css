@@ -60,12 +60,7 @@ p{
 
 }
 
-.top-block{
-    height: 580px;
-    background-image: url('../img/top_background.svg');
-    background-repeat: no-repeat;
-    background-position: right;
-}
+
 
 .orange-button{
     height: 48px;
@@ -94,6 +89,13 @@ p{
 
     display: flex;
     align-items: center;
+
+    padding-right: 11px;
+    padding-left: 18px;
+}
+
+.form__button{
+    margin-left: auto;
 }
 
 .form input{
@@ -102,8 +104,9 @@ p{
     outline: none;
     border: none;
 
-
     font-size: 14px;
+
+    color: white;
 }
 
 .tools{
