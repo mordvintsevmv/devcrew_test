@@ -1,3 +1,19 @@
 .join-block{
     margin: 250px auto 0 auto;
 }
+
+.join-block__title{
+    text-align: center;
+
+}
+
+.join-block__description{
+    text-align: center;
+
+    margin-top: 25px;
+}
+
+.join-block__form{
+    width: 549px;
+    margin: 100px auto 0 auto;
+}
