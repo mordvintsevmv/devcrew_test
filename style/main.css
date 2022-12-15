@@ -20,13 +20,20 @@ h3{
 }
 
 h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255,255,255,.9);
+}
+
+h5{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     color: rgba(255,255,255,.55);
 }
 
-h5{
+h6{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -40,10 +47,12 @@ p{
     color: rgba(255,255,255,.78);
 }
 
-.wrapper{
-    width: 1440px;
+body{
     background-color: #1E252B;
     font-family: Poppins, sans-serif;
+}
+.wrapper{
+    width: 1440px;
 
     font-size: 14px;
     font-weight: 400;
@@ -104,13 +113,6 @@ p{
     font-size: 14px;
 
     color: white;
-}
-
-
-
-.footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .antools-logo{

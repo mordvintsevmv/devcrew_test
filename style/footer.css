@@ -1,0 +1,36 @@
+.footer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin: 240px 0 98px 0;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+    padding-top: 70px;
+    padding-left: 108px;
+}
+
+.footer a {
+    display: block;
+}
+
+.footer-copyright {
+    width: 260px;
+    height: 183px;
+}
+
+.footer-copyright__title {
+    margin: 25px 0 21px 0;
+}
+
+.footer-copyright__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-block__title{
+    margin-bottom: 20px;
+}

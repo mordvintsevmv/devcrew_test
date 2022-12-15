@@ -1,0 +1,19 @@
+.testimonial-block{
+    margin: 200px auto 0 auto;
+}
+
+.testimonial-block__quotation{
+    display: flex;
+}
+
+.testimonial-block__page{
+    margin-top: 100px;
+
+    display: flex;
+
+    column-gap: 18px;
+
+    justify-content: center;
+
+
+}
