@@ -51,7 +51,6 @@ p{
     color: rgba(255,255,255,.78);
 
     padding-top: 31px;
-
 }
 
 .wrapper a{
@@ -59,8 +58,6 @@ p{
     color: rgba(255,255,255,.55);
 
 }
-
-
 
 .orange-button{
     height: 48px;
@@ -109,22 +106,7 @@ p{
     color: white;
 }
 
-.tools{
-    display: grid;
-    grid-template-columns: 392px 392px 392px;
-    row-gap: 100px;
-    column-gap: 23px;
 
-
-    justify-content: center;
-
-}
-
-.tool-item{
-
-    width: 392px;
-    height: 294px;
-}
 
 .footer{
     display: grid;
