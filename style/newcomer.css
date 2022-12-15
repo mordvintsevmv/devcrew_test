@@ -1,0 +1,38 @@
+.newcomer-block{
+    margin-top: 200px;
+
+    padding-right: 108px;
+    padding-left: 108px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newcomer-tools{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newcomer-tools__item{
+    width: 288px;
+    height: 284px;
+}
+
+.newcomer-block__title{
+    margin-bottom: 30px;
+}
+
+.newcomer-block__description{
+    margin-bottom: 60px;
+}
+
+.newcomer-block__button{
+    width: 198px;
+    height: 58px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+
+}
