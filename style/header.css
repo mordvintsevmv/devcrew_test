@@ -1,0 +1,42 @@
+.header {
+    display: grid;
+    grid-auto-flow: column;
+
+    grid-gap: 257px 193px;
+
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.navigation__item img {
+    position: absolute;
+    display: inline;
+    top: 1px;
+}
+
+.navigation__item {
+    position: relative;
+    margin-left: 40px;
+}
+
+.header__login {
+    display: flex;
+
+    align-items: center;
+    justify-items: center;
+
+    column-gap: 41px;
+}
+
+.sign-up-button{
+    width: 118px;
+    cursor: pointer;
+}
+
+.login-button{
+    color: rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+
+}

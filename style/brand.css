@@ -1,0 +1,25 @@
+.brands-block{
+
+    padding-top: 55px;
+
+    text-align: center;
+
+    height: 253px;
+    width: 1224px;
+
+    margin: 0 auto;
+
+    background: rgba(44,53,61,.2);
+
+    border-radius: 25px;
+}
+
+.brands-block__title{
+    margin-bottom: 55px;
+}
+
+.brands{
+    display: flex;
+    column-gap: 107px;
+    justify-content: center;
+}

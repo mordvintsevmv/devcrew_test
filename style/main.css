@@ -1,16 +1,62 @@
-.wrapper{
-    width: 1440px;
-    background-color: #1E252B;
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
     color: rgba(255,255,255,.9);
 }
 
-.header{
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255,255,255,.8);
+}
 
-    display: grid;
-    grid-auto-flow: column;
+h3{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: rgba(255,255,255,.9);
+}
 
-    align-items: center;
-    justify-items: center;
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255,255,255,.55);
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255,255,255,.9);
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255,255,255,.78);
+}
+
+.wrapper{
+    width: 1440px;
+    background-color: #1E252B;
+    font-family: Poppins, sans-serif;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255,255,255,.78);
+
+    padding-top: 31px;
+
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
 
 }
 
@@ -19,4 +65,90 @@
     background-image: url('../img/top_background.svg');
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.orange-button{
+    height: 48px;
+    width: 130px;
+
+    background: #FF6E30;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+    color: rgba(253, 245, 255, 1);
+}
+
+.form{
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,.1);
+    background: #283036;
+
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+}
+
+.form input{
+    background: none;
+    caret-color: #837A93;
+    outline: none;
+    border: none;
+
+
+    font-size: 14px;
+}
+
+.tools{
+    display: grid;
+    grid-template-columns: 392px 392px 392px;
+    row-gap: 100px;
+    column-gap: 23px;
+
+
+    justify-content: center;
+
+}
+
+.tool-item{
+
+    width: 392px;
+    height: 294px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.antools-logo{
+    display: flex;
+    align-items: center;
+
+    column-gap: 12px;
+
+    cursor: pointer;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+
+    column-gap: 19px;
+}
+
+.socials__item{
+    height: 58px;
+    width: 58px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

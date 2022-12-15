@@ -4,8 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <!--STYLES-->
     <link type="text/css" rel="stylesheet" href="style/main.css"/>
+    <link type="text/css" rel="stylesheet" href="style/header.css"/>
+    <link type="text/css" rel="stylesheet" href="style/popular.css"/>
+    <link type="text/css" rel="stylesheet" href="style/brand.css"/>
+    <link type="text/css" rel="stylesheet" href="style/newcomer.css"/>
+    <link type="text/css" rel="stylesheet" href="style/testimonial.css"/>
+    <link type="text/css" rel="stylesheet" href="style/join.css"/>
+    <link type="text/css" rel="stylesheet" href="style/footer.css"/>
+
     <link type="text/css" rel="stylesheet" href="style/null.css"/>
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
 
 </head>
 
@@ -15,59 +31,61 @@
     <!--HEADER-->
     <header class="header">
 
-        <div>
-            <img src="img/brand_logos/antools.svg">
-
-            <h4>antools.</h4>
+        <div class="antools-logo">
+            <img src="img/brand_logos/antools.svg" alt="antools_logo">
+            <h3>antools.</h3>
         </div>
 
-        <nav>
-            <ul>
-                <a href="#">Home</a>
-                <a href="#">Categories</a>
-                <a href="#">My Collections</a>
-                <a href="#">Blog</a>
-            </ul>
+        <nav class="header__navigation navigation">
+            <a href="#" class="navigation__item">Home</a>
+            <a href="#" class="navigation__item">
+                Categories
+                <img src="img/chevron_down.svg" alt="down"/>
+            </a>
+
+            <a href="#" class="navigation__item">My Collections</a>
+
+            <a href="#" class="navigation__item">Blog</a>
         </nav>
 
-        <div>
-            LOGIN
-            Sign Up
+        <div class="header__login">
+            <div class="login-button">Login</div>
+            <div class="orange-button sign-up-button">Sign Up</div>
         </div>
 
     </header>
 
-    <!--TOP-->
+    <!--HERO-->
     <div class="top-block">
 
         <h1>Awesome tools for <br>
             Designer & Developer.</h1>
 
-        <h3>Antool is a web collection of information on paid or <br>
-            free Design and Development tools</h3>
+        <h4>Antool is a web collection of information on paid or <br>
+            free Design and Development tools</h4>
 
-        <div>
+        <div class="form">
             <img src="img/buttons/search.svg"/>
             <input type="text" placeholder="find more than 430+ tools...">
-            <div>Search</div>
+            <div class="orange-button">Search</div>
         </div>
 
-        <div>
-            <img src="img/social_logos/facebook.svg"/>
-            <img src="img/social_logos/instagram.svg"/>
-            <img src="img/social_logos/twitter.svg"/>
+        <div class="socials">
+            <div class="socials__item"><img src="img/social_logos/facebook.svg"/></div>
+            <div class="socials__item"><img src="img/social_logos/instagram.svg"/></div>
+            <div class="socials__item"><img src="img/social_logos/twitter.svg"/></div>
         </div>
 
     </div>
 
-    <!--TOOLS-->
+    <!--POPULAR-->
     <div class="tools-block">
 
         <h1>Most Popular Tools</h1>
-        <h3>Tools for the best Designers and Developers <br>
-            most popularly used in the world</h3>
+        <h4>Tools for the best Designers and Developers <br>
+            most popularly used in the world</h4>
 
-        <div>
+        <div class="tools">
 
             <!--FIGMA-->
             <div>
@@ -88,7 +106,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="img/buttons/heart.svg"/>
                 <img src="img/buttons/folder.svg"/>
-                <div>Visit</div>
+                <div class="orange-button">Visit</div>
             </div>
 
             <!--VISUAL STUDIO CODE-->
@@ -142,25 +160,24 @@
 
     <!--BRANDS-->
     <div class="brands-block">
-        <h2>Trusted more than 150+ brand</h2>
+        <h2 class="brands-block__title">Trusted more than 150+ brand</h2>
 
-        <div>
+        <div class="brands">
             <img src="img/brand_logos/microsoft.svg"/>
             <img src="img/brand_logos/google.svg"/>
             <img src="img/brand_logos/slack.svg"/>
             <img src="img/brand_logos/wordpress.svg"/>
-
         </div>
 
     </div>
 
-    <!--NEWCOMER TOOLS-->
+    <!--NEWCOMER-->
     <div class="newcomer-tools-block">
         <h1>Newcomer Tools</h1>
-        <h3>Wow! see the latest update of the most <br>
+        <h4>Wow! see the latest update of the most <br>
             recommended tools from reliable designers <br>
-            and developers</h3>
-        <div>Explore more</div>
+            and developers</h4>
+        <div class="orange-button">Explore more</div>
 
         <div>
 
@@ -183,7 +200,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <img src="img/buttons/heart.svg"/>
                 <img src="img/buttons/folder.svg"/>
-                <div>Visit</div>
+                <div class="orange-button">Visit</div>
             </div>
 
             <!--TOOLBOX-->
@@ -211,7 +228,7 @@
         </div>
     </div>
 
-    <!--QUOTATION-->
+    <!--TESTIMONIAL-->
     <div class="quotation-block">
 
         <div>
@@ -242,24 +259,25 @@
         </div>
     </div>
 
-    <!--SUBSCRIBE-->
+    <!--JOIN-->
     <div class="subscribe-block">
         <h1>Become a contributor?</h1>
-        <h3>Join us and get tips & tricks to become a great <br>
-            Designer and Developer</h3>
+        <h4>Join us and get tips & tricks to become a great <br>
+            Designer and Developer</h4>
 
-        <div>
+        <div class="form">
             <input type="text" placeholder="Enter your email..."/>
-            <div>Join Us</div>
+            <div class="orange-button">Join Us</div>
         </div>
     </div>
 
     <!--FOOTER-->
     <footer class="footer">
+
         <div>
-            <div>
+            <div class="antools-logo">
                 <img src="img/brand_logos/antools.svg">
-                <h4>antools.</h4>
+                <h3>antools.</h3>
             </div>
 
             <h6>Copyright 2021. Antools</h6>
