@@ -13,6 +13,11 @@
 
 .footer a {
     display: block;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    color: #FF6E30;
 }
 
 .footer-copyright {

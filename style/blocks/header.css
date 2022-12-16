@@ -22,6 +22,10 @@ Centering "arrow down" for Categories
     margin-left: 40px;
 }
 
+.navigation__item:hover {
+    color: #FF6E30;
+}
+
 .header__login {
     display: flex;
 
