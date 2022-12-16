@@ -27,6 +27,11 @@
     height: 294px;
     padding: 33px;
     position: relative;
+
+
+    background: #283036;
+    border-radius: 15px;
+
 }
 
 .tools-item__logo{
@@ -57,6 +62,7 @@
 .tools-item-buttons{
     display: flex;
     column-gap: 33px;
+
 }
 
 .tools-item-buttons__visit-button{
@@ -66,6 +72,8 @@
     font-weight: 600;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.55);
+
+    cursor: pointer;
 }
 
 .popular-block__load-more{
@@ -87,5 +95,14 @@
 
     color: rgba(255, 110, 48, 1);
 
+    cursor: pointer;
 
+}
+
+.tools-item-buttons__favourite{
+    cursor: pointer;
+}
+
+.tools-item-buttons__folder{
+    cursor: pointer;
 }
