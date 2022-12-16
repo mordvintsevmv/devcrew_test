@@ -83,7 +83,7 @@ body{
     font-weight: 600;
     line-height: 24px;
 
-    color: rgba(253, 245, 255, 1);
+    color: rgba(253, 245, 255, 1) !important;
 
     cursor: pointer;
 }

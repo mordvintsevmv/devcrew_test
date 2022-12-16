@@ -9,9 +9,9 @@
 
     margin: 200px auto 0 auto;
 
-    background: rgba(44,53,61,.2);
-
     border-radius: 25px;
+
+    background-image: url("../img/background/back_brands.svg");
 }
 
 .brands-block__title{

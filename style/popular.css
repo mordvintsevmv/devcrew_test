@@ -28,9 +28,15 @@
     padding: 33px;
     position: relative;
 
+}
 
-    background: #283036;
+.tools__item-active{
+    background-image: url("../img/background/back_tools.svg");
+    background-position: right;
     border-radius: 15px;
+    border: 2px solid rgba(40, 48, 54, 0.6);
+
+    top: -20px;
 
 }
 
@@ -62,6 +68,7 @@
 .tools-item-buttons{
     display: flex;
     column-gap: 33px;
+    align-items: center;
 
 }
 
@@ -101,8 +108,31 @@
 
 .tools-item-buttons__favourite{
     cursor: pointer;
+
+    width: 42px;
+    height: 42px;
+
+    background-image: url("../img/buttons/heart.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .tools-item-buttons__folder{
     cursor: pointer;
+}
+
+.tools-item-buttons__favourite-active{
+    background-image: url("../img/buttons/heart-active.svg");
+    border-radius: 8px;
+}
+
+.tools-item-buttons__folder{
+    cursor: pointer;
+
+    width: 42px;
+    height: 42px;
+
+    background-image: url("../img/buttons/folder.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 }

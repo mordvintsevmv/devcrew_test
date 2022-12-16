@@ -52,10 +52,14 @@
 
 .testimonial-quotation-person__photo{
     width: 1900px;
+    z-index: 10;
 }
 
 .testimonial-quotation-person__info-block{
-    background: rgba(40, 48, 54, 0.2);
+    background: url("../img/background/back_info.svg") rgba(40, 48, 54, 0.2) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     width: 265px;
     height: 91px;
     border-radius: 8px;
@@ -108,4 +112,12 @@
 
 .testimonial-block-top__arrow-back{
     cursor: pointer;
+}
+
+.testimonial-quotation-person__back{
+    position: absolute;
+
+    z-index: -1;
+
+    top: 60px;
 }
