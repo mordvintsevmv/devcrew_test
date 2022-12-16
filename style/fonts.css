@@ -1,0 +1,58 @@
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    color: rgba(255,255,255,.9);
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255,255,255,.8);
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: rgba(255,255,255,.9);
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255,255,255,.9);
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255,255,255,.55);
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255,255,255,.9);
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255,255,255,.78);
+}
+
+body{
+    font-family: Poppins, sans-serif;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255,255,255,.78);
+
+}
