@@ -1,0 +1,89 @@
+/*
+Common style for every tool
+*/
+
+.tools__item {
+    width: 392px;
+    height: 294px;
+    padding: 33px;
+    position: relative;
+}
+
+.tools-item__title {
+    position: absolute;
+    top: 33px;
+    left: 130px;
+}
+
+.tools-item__price {
+    position: absolute;
+    top: 66px;
+    left: 130px;
+
+    color: rgba(255, 165, 55, .55);
+}
+
+.tools-item__description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    color: rgba(255, 255, 255, .55);
+}
+
+.tools-item-buttons {
+    display: flex;
+    column-gap: 33px;
+    align-items: center;
+}
+
+.tools-item-buttons__visit-button {
+    margin-left: auto;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.55);
+
+    cursor: pointer;
+}
+
+.tools-item-buttons__favourite {
+    cursor: pointer;
+
+    width: 42px;
+    height: 42px;
+
+    background-image: url("../img/buttons/heart.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tools-item-buttons__folder {
+    cursor: pointer;
+
+    width: 42px;
+    height: 42px;
+
+    background-image: url("../img/buttons/folder.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*
+Style for "active" tool
+*/
+
+.tools__item-active {
+    background-image: url("../img/background/back_tools.svg");
+    background-position: right;
+    border-radius: 15px;
+    border: 2px solid rgba(40, 48, 54, 0.6);
+
+    top: -20px;
+}
+
+.tools-item-buttons__favourite-active {
+    background-image: url("../img/buttons/heart-active.svg");
+    border-radius: 8px;
+}

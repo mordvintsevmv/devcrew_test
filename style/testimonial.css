@@ -2,9 +2,11 @@
     margin: 200px auto 0 auto;
 
     padding: 0 108px 0 108px;
-
 }
 
+/*
+Main part (without pages)
+*/
 .testimonial-block__top {
     display: flex;
     justify-content: space-between;
@@ -21,6 +23,9 @@
     justify-content: center;
 }
 
+/*
+Inactive page
+*/
 .testimonial-block__page {
     width: 44px;
     height: 8px;
@@ -30,21 +35,28 @@
     background-color: #283036;
 
     cursor: pointer;
-
 }
 
+/*
+Active page
+*/
 .testimonial-block__page-active {
     background-color: #FF6E30;
 }
 
+/*
+Block with photo and text (all quotation block)
+*/
 .testimonial-quotation {
     width: 849px;
     height: 492px;
 
     display: flex;
-
 }
 
+/*
+Block with photo and name
+*/
 .testimonial-quotation-person {
     position: relative;
 
@@ -80,7 +92,6 @@
     color: rgba(255, 253, 253, 0.78);
 
     margin: 0;
-
 }
 
 .testimonial-quotation-person__position {
@@ -93,19 +104,30 @@
     margin: 0;
 }
 
+.testimonial-quotation-person__back {
+    position: absolute;
+
+    z-index: -1;
+
+    top: 60px;
+}
+
+/*
+Block with text
+*/
 .testimonial-quotation-content {
     position: relative;
 
     padding-top: 128px;
-    padding-left: 87px;
+    padding-left: 120px;
 }
 
 .testimonial-quotation-content__mark {
     position: absolute;
     top: 80px;
-    left: 35px;
-
+    left: 68px;
 }
+
 
 .testimonial-block-top__arrow-next {
     cursor: pointer;
@@ -115,10 +137,3 @@
     cursor: pointer;
 }
 
-.testimonial-quotation-person__back {
-    position: absolute;
-
-    z-index: -1;
-
-    top: 60px;
-}

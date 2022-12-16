@@ -6,10 +6,11 @@
 
     align-items: center;
     justify-items: center;
-
-
 }
 
+/*
+Centering "arrow down" for Categories
+*/
 .navigation__item img {
     position: absolute;
     display: inline;
@@ -38,5 +39,4 @@
 .login-button {
     color: rgba(255, 255, 255, 0.78);
     cursor: pointer;
-
 }

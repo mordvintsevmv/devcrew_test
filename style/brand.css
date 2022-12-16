@@ -1,5 +1,4 @@
 .brands-block {
-
     padding-top: 55px;
 
     text-align: center;
@@ -18,7 +17,7 @@
     margin-bottom: 55px;
 }
 
-.brands {
+.brands-block__logos {
     display: flex;
     column-gap: 107px;
     justify-content: center;

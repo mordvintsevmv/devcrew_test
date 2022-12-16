@@ -29,12 +29,10 @@
 }
 
 .newcomer-block__button {
-    width: 198px;
-    height: 58px;
+    width: 198px !important;
+    height: 58px !important;
 
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: rgba(255, 255, 255, 1);
-
 }
