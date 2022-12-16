@@ -68,7 +68,7 @@ Block with photo and name
 }
 
 .testimonial-quotation-person__info-block {
-    background: url("../img/background/back_info.svg") rgba(40, 48, 54, 0.2);
+    background: url("../../img/background/back_info.svg") rgba(40, 48, 54, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
