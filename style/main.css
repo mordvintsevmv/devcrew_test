@@ -1,20 +1,20 @@
-body{
+body {
     background-color: #1E252B;
 }
 
-.wrapper{
+.wrapper {
     width: 1440px;
 
     padding-top: 31px;
 }
 
-.wrapper a{
+.wrapper a {
     text-decoration: none;
-    color: rgba(255,255,255,.55);
+    color: rgba(255, 255, 255, .55);
 
 }
 
-.orange-button{
+.orange-button {
     height: 48px;
     width: 130px;
 
@@ -34,9 +34,9 @@ body{
     cursor: pointer;
 }
 
-.form{
+.form {
     border-radius: 15px;
-    border: 1px solid rgba(255,255,255,.1);
+    border: 1px solid rgba(255, 255, 255, .1);
     background: #283036;
 
     height: 64px;
@@ -48,11 +48,11 @@ body{
     padding-left: 18px;
 }
 
-.form__button{
+.form__button {
     margin-left: auto;
 }
 
-.form input{
+.form input {
     background: none;
     caret-color: #837A93;
     outline: none;
@@ -63,7 +63,7 @@ body{
     color: white;
 }
 
-.antools-logo{
+.antools-logo {
     display: flex;
     align-items: center;
 
@@ -72,7 +72,7 @@ body{
     cursor: pointer;
 }
 
-.socials{
+.socials {
     display: flex;
     align-items: center;
 
@@ -80,7 +80,7 @@ body{
 
 }
 
-.socials__item{
+.socials__item {
     height: 58px;
     width: 58px;
 

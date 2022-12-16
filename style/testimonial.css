@@ -1,17 +1,17 @@
-.testimonial-block{
+.testimonial-block {
     margin: 200px auto 0 auto;
 
     padding: 0 108px 0 108px;
 
 }
 
-.testimonial-block__top{
+.testimonial-block__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.testimonial-block__pages{
+.testimonial-block__pages {
     margin-top: 100px;
 
     display: flex;
@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.testimonial-block__page{
+.testimonial-block__page {
     width: 44px;
     height: 8px;
 
@@ -33,11 +33,11 @@
 
 }
 
-.testimonial-block__page-active{
+.testimonial-block__page-active {
     background-color: #FF6E30;
 }
 
-.testimonial-quotation{
+.testimonial-quotation {
     width: 849px;
     height: 492px;
 
@@ -45,18 +45,18 @@
 
 }
 
-.testimonial-quotation-person{
+.testimonial-quotation-person {
     position: relative;
 
 }
 
-.testimonial-quotation-person__photo{
+.testimonial-quotation-person__photo {
     width: 1900px;
     z-index: 10;
 }
 
-.testimonial-quotation-person__info-block{
-    background: url("../img/background/back_info.svg") rgba(40, 48, 54, 0.2) ;
+.testimonial-quotation-person__info-block {
+    background: url("../img/background/back_info.svg") rgba(40, 48, 54, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -72,7 +72,7 @@
     padding: 10px 22px 16px 23px;
 }
 
-.testimonial-quotation-person__name{
+.testimonial-quotation-person__name {
 
     font-size: 26px;
     font-weight: 500;
@@ -83,7 +83,7 @@
 
 }
 
-.testimonial-quotation-person__position{
+.testimonial-quotation-person__position {
 
     font-size: 16px;
     font-weight: 400;
@@ -92,29 +92,30 @@
 
     margin: 0;
 }
-.testimonial-quotation-content{
+
+.testimonial-quotation-content {
     position: relative;
 
     padding-top: 128px;
     padding-left: 87px;
 }
 
-.testimonial-quotation-content__mark{
+.testimonial-quotation-content__mark {
     position: absolute;
     top: 80px;
     left: 35px;
 
 }
 
-.testimonial-block-top__arrow-next{
+.testimonial-block-top__arrow-next {
     cursor: pointer;
 }
 
-.testimonial-block-top__arrow-back{
+.testimonial-block-top__arrow-back {
     cursor: pointer;
 }
 
-.testimonial-quotation-person__back{
+.testimonial-quotation-person__back {
     position: absolute;
 
     z-index: -1;

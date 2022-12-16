@@ -1,4 +1,4 @@
-.brands-block{
+.brands-block {
 
     padding-top: 55px;
 
@@ -14,11 +14,11 @@
     background-image: url("../img/background/back_brands.svg");
 }
 
-.brands-block__title{
+.brands-block__title {
     margin-bottom: 55px;
 }
 
-.brands{
+.brands {
     display: flex;
     column-gap: 107px;
     justify-content: center;

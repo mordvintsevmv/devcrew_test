@@ -1,4 +1,4 @@
-.newcomer-block{
+.newcomer-block {
     margin-top: 200px;
 
     padding-right: 108px;
@@ -8,27 +8,27 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.newcomer-tools{
+.newcomer-tools {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 50px;
     grid-column-gap: 24px;
 }
 
-.newcomer-tools__item{
+.newcomer-tools__item {
     width: 288px;
     height: 284px;
 }
 
-.newcomer-block__title{
+.newcomer-block__title {
     margin-bottom: 30px;
 }
 
-.newcomer-block__description{
+.newcomer-block__description {
     margin-bottom: 60px;
 }
 
-.newcomer-block__button{
+.newcomer-block__button {
     width: 198px;
     height: 58px;
 
