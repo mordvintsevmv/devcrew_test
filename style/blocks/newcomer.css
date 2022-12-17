@@ -16,8 +16,8 @@
 }
 
 .newcomer-tools__item {
-    width: 288px;
-    height: 284px;
+    width: 288px !important;
+    height: 284px !important;
 }
 
 .newcomer-block__title {
